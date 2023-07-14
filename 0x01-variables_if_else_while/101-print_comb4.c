@@ -13,7 +13,7 @@ for (nb = 0; nb < 8; nb++)
 {
 for (n = nb + 1; n < 9; n++)
 {
-for (num = n + 1; num < 10; num+++)
+for (num = n + 1; num < 10; num++)
 {
 putchar((nb % 10) + '0');
 putchar((n % 10) + '0');
