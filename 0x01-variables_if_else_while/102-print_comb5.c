@@ -8,19 +8,19 @@
 
 int main(void)
 {
-int n, num, nb;
-for(nb = 0; n <= 98; nb++)
+int  num, nb;
+for(nb = 0; nb <= 98; nb++)
 {
 
-for (num = n + 1 ; num <= 99; num++)
+for (num = nb + 1 ; num <= 99; num++)
 {
-putchar((n  /  10) + '0');
-putchar((n  %  10) + '0');
+putchar((nb / 10) + '0');
+putchar((nb % 10) + '0');
 putchar(' ');
 putchar((num / 10) + '0');
 putchar((num % 10) + '0');
 
-if ( n == 98 && num == 99)
+if ( nb == 98 && num == 99)
 continue;
 putchar(',');
 putchar(' ');
