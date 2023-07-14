@@ -18,5 +18,5 @@ for (ch = 'a'; ch <= 'f'; ch++)
 putchar(ch);
 
 putchar('\n');
-return(0);
+return (0);
 }
