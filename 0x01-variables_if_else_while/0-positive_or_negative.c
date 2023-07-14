@@ -1,17 +1,20 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
-/**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include <time.h>
+	
+ /* more headers goes there */
 
-int main(void)
-{
+ /* betty style doc for function main goes there */
+
+ /**
+  * main - Entry point
+  *
+  * Return: Always 0 (success)
+  */
+
+  int main(void)
+  {
 	int n;
 
 	srand(time(0));
@@ -27,5 +30,5 @@ int main(void)
 	
 	
 	return (0);
-}
+  } 
  
